@@ -204,6 +204,11 @@ h5 {
   text-decoration: underline;
 }
 
+hr {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 @media screen and (max-width: 1680px) {
   body {
     font-size: 11pt;
