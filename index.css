@@ -107,7 +107,7 @@ h5 {
 }
 
 .por-img:hover {
-  content: url("IMG_9754-2.JPG");
+  content: url("img/IMG_9754-2.JPG");
   transition: 0.1s ease-out;
 }
 
@@ -119,13 +119,12 @@ h5 {
   display: block;
   margin-top: 2em;
   margin-bottom: 2em;
+  width: 100%
 }
 
 .nav-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: table;
+  margin: 0 auto;
 }
 
 .nav-links-container {
@@ -153,6 +152,7 @@ h5 {
 .pro-container {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  clear: both;
 }
 
 .pro-links {
@@ -209,9 +209,48 @@ hr {
   margin-bottom: 3em;
 }
 
+.pro-img {
+  display: block;
+  float: right;
+  margin-left: 1em;
+  margin-top: 1em;
+  width: 330px;
+  height: 230px;
+  border: 6px solid #fff;
+  overflow: hidden;
+}
+
+.pro-img img {
+  /* margin: 4px; */
+}
+
+.pro-img:hover {
+  -moz-box-shadow: 0 0 10px 0 #ddd;
+  -webkit-box-shadow: 0 0 10px 0 #ddd;
+  box-shadow: 0 0 10px 0 #ddd;
+  opacity: 1;
+}
+
+.pro-img img:hover {
+  margin-top: -230px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1681px) {
+  .content {
+    width: 80%;
+  }
+  /* .nav-container {
+    width: 30%;
+  } */
+}
+
 @media screen and (max-width: 1680px) {
   body {
     font-size: 11pt;
+  }
+  .content {
+    width: 80%;
   }
 }
 
@@ -233,6 +272,9 @@ hr {
     padding: 3em;
     width: 100%;
   }
+  /* .nav-container {
+    width: 45%;
+  } */
 }
 
 @media screen and (max-width: 736px) {
@@ -242,6 +284,9 @@ hr {
   h2 {
     font-size: 1.25em;
   }
+  /* .nav-container {
+    width: 65%;
+  } */
 }
 
 @media screen and (max-width: 360px) {
@@ -260,10 +305,13 @@ hr {
   .wrapper {
     padding: 0.5em;
   }
-  .nav-container {
+  /* .nav-container {
     width: 100%;
-  }
+  } */
   .nav-links-container {
     margin-left: -40px;
+  }
+  .pro-img {
+    display: none;
   }
 }
