@@ -87,7 +87,7 @@ h1 {
 
 h2 {
   font-size: 1.75em;
-  color: #3A539B;
+  color: #3a539b;
 }
 
 h5 {
@@ -114,27 +114,27 @@ h5 {
 
 .por-title {
   margin-top: 1em;
-  color: #3A539B;
+  color: #3a539b;
 }
 
-.nav {
+.vc-nav {
   display: block;
   margin-top: 2em;
   margin-bottom: 2em;
   width: 100%;
 }
 
-.nav-container {
+.vc-nav-container {
   display: table;
   margin: 0 auto;
 }
 
-.nav-links-container {
+.vc-nav-links-container {
   display: flex;
   list-style-type: none;
 }
 
-.nav-links {
+.vc-nav-links {
   margin: 20px;
 }
 
@@ -158,7 +158,7 @@ h5 {
 }
 
 .pro-title {
-  color: #3A539B;
+  color: #3a539b;
 }
 
 .pro-links {
@@ -188,7 +188,7 @@ h5 {
   transition: 0.2s ease-out;
   cursor: pointer;
   overflow: hidden;
-  background-color: #3A539B;
+  background-color: #3a539b;
   text-transform: uppercase;
   user-select: none;
   text-rendering: auto;
@@ -229,13 +229,14 @@ h5 {
 }
 
 .link-aikido {
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
   color: #444;
+  vertical-align: middle;
 }
 
 .link-aikido:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 hr {
@@ -270,15 +271,15 @@ hr {
   background-repeat: no-repeat;
 }
 
-a.nav-links:hover {
-  color: #3A539B;
+a.vc-nav-links:hover {
+  color: #3a539b;
 }
 
 @media screen and (min-width: 1681px) {
   .content {
     width: 80%;
   }
-  /* .nav-container {
+  /* .vc-nav-container {
     width: 30%;
   } */
 }
@@ -310,7 +311,7 @@ a.nav-links:hover {
     padding: 3em;
     width: 100%;
   }
-  /* .nav-container {
+  /* .vc-nav-container {
     width: 45%;
   } */
 }
@@ -322,7 +323,7 @@ a.nav-links:hover {
   h2 {
     font-size: 1.25em;
   }
-  /* .nav-container {
+  /* .vc-nav-container {
     width: 65%;
   } */
 }
@@ -343,10 +344,10 @@ a.nav-links:hover {
   .wrapper {
     padding: 0.5em;
   }
-  /* .nav-container {
+  /* .vc-nav-container {
     width: 100%;
   } */
-  .nav-links-container {
+  .vc-nav-links-container {
     margin-left: -40px;
   }
   .pro-img {
