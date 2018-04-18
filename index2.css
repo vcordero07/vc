@@ -3,7 +3,7 @@
 }
 
 html {
-  background-color: #fff;
+  background-color: #2b2b2b;
   margin: 0;
   padding: 0;
   border: 0;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  color: #444;
+  color: #bdc7c1;
   font-family: "Alegreya", Helvetica, sans-serif;
   font-size: 14pt;
   font-weight: 300;
@@ -42,7 +42,7 @@ body {
   flex-direction: column;
   justify-content: center;
   transition: transform 0.5s ease;
-  background-color: #ffffff;
+  background-color: #2b2b2b;
   padding: 3em;
   width: 50%;
 }
@@ -61,7 +61,6 @@ a {
 }
 
 a:hover {
-  /*color: #e74c3c !important;*/
   border-bottom-color: transparent;
 }
 
@@ -136,6 +135,7 @@ h3 {
 
 .vc-nav-links {
   margin: 20px;
+  color: #E6D044;
 }
 
 .footer {
@@ -158,7 +158,7 @@ h3 {
 }
 
 .pro-title {
-  color: #3a539b;
+  color: #E6D044;
 }
 
 .pro-links {
@@ -167,6 +167,7 @@ h3 {
 
 .devs-icons {
   height: 1.3em;
+  fill: #bdc7c1;
 }
 
 .pro-tech {
@@ -181,7 +182,7 @@ h3 {
   height: 40px;
   line-height: 40px;
   border-radius: 4px;
-  color: #fff;
+  color: #bdc7c1;
   border: 0;
   outline: 0;
   text-align: center;
@@ -215,7 +216,7 @@ h3 {
   transition: 0.2s ease-out;
   cursor: pointer;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #bdc7c1;
   text-transform: uppercase;
   user-select: none;
   text-rendering: auto;
@@ -231,7 +232,7 @@ h3 {
 .link-aikido {
   text-decoration: underline;
   font-weight: bold;
-  color: #444;
+  color: #E6D044;
   vertical-align: middle;
 }
 
@@ -251,7 +252,7 @@ hr {
   margin-top: 1em;
   width: 330px;
   height: 230px;
-  border: 6px solid #fff;
+  border: 6px solid #333;
   overflow: hidden;
 }
 
@@ -275,7 +276,9 @@ a.vc-nav-links:hover {
   color: #3a539b;
 }
 
-.fa-lightbulb-o {}
+.fa-lightbulb-o {
+  color: #E6D044;
+}
 
 @media screen and (min-width: 1681px) {
   .content {
